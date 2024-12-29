@@ -1,0 +1,15 @@
+name = "email"
+main = "src/worker.js"
+compatibility_date = "2024-11-13"
+workers_dev = false
+preview_urls = false
+
+[placement]
+mode = "smart"
+
+[[send_email]]
+name = "SEB"
+
+[[kv_namespaces]]
+id = "7390a7e250aa45ab836178a85b770b91"
+binding = "TEMP_KV"
